@@ -12,3 +12,5 @@
 ||cdninstagram.com^$all
 ||fbcdn-profile-a.akamaihd.net^$third-party,domain=~facebook.com
 ||fbcdn.net^$all
+! 2023-07-02 https://twitter.com
+||ads-api.twitter.com^
