@@ -1,0 +1,14 @@
+![Adblock Plus 2.0]
+! Title: Smiley422 - Personal
+! Description: My personal uBlock filters.
+! Version: 1.0.0
+! Expires: 4 days (update frequency)
+! Homepage: https://github.com/Smiley422/uBlock-filters
+! License: https://github.com/Smiley422/uBlock-filters
+!
+||facebook.com^$all
+||facebook.net^$all
+||instagram.com^$all
+||cdninstagram.com^$all
+||fbcdn-profile-a.akamaihd.net^$third-party,domain=~facebook.com
+||fbcdn.net^$all
