@@ -1,0 +1,4 @@
+||facebook.com^$all
+||facebooknet^$all
+||instagram.com^$all
+||cdninstagram.com^$all
