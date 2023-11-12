@@ -5,15 +5,24 @@
 ! Expires: 2 days
 ! Homepage: https://github.com/Smiley422/uBlock-filters
 ! License: https://github.com/Smiley422/uBlock-filters
-!
+
+! Blocks some Meta trackers
 ||facebook.com^$all
 ||facebook.net^$all
 ||instagram.com^$all
 ||cdninstagram.com^$all
-||fbcdn-profile-a.akamaihd.net^$third-party,domain=~facebook.com
+||fbcdn-profile-a.akamaihd.net^$all
 ||fbcdn.net^$all
-! 2023-07-02 https://twitter.com
+||meta.com^$important
+
+!2023-07-02 https://twitter.com
 ||ads-api.twitter.com^$important
 
-! 2023-11-12 https://meta.com
-||meta.com^$important
+! 2023-11-12 Generic trackers
+||google-analytics.com^$all
+||heapanalytics.com^$all
+||insops.net^$all
+||mxpnl.com ^$all
+||pendo.io^$all
+||salesforce.com^$all
+||salesforceliveagent.com^$all
