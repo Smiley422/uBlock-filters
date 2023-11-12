@@ -1,7 +1,7 @@
 ![Adblock Plus 2.0]
 ! Title: Smiley422 - Personal
 ! Description: My personal uBlock filters.
-! Version: 1.0.3
+! Version: 1.0.4
 ! Expires: 2 days
 ! Homepage: https://github.com/Smiley422/uBlock-filters
 ! License: https://github.com/Smiley422/uBlock-filters
@@ -22,7 +22,7 @@
 ||google-analytics.com^$all
 ||heapanalytics.com^$all
 ||insops.net^$all
-||mxpnl.com ^$all
+||mxpnl.com^$all
 ||pendo.io^$all
 ||salesforce.com^$all
 ||salesforceliveagent.com^$all
