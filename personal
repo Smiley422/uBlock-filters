@@ -1,19 +1,19 @@
 ![Adblock Plus 2.0]
 ! Title: Smiley422 - Personal
 ! Description: My personal uBlock filters.
-! Version: 1.0.6
-! Expires: 2 days
+! Version: 1.0.7
+! Expires: 1 week
 ! Homepage: https://github.com/Smiley422/uBlock-filters
 ! License: https://github.com/Smiley422/uBlock-filters
 
-! Blocks some Meta trackers
+! Blocks some Meta trackers including Facebook and Instagram
 ||facebook.com^$all
 ||facebook.net^$all
 ||instagram.com^$all
 ||cdninstagram.com^$all
 ||fbcdn-profile-a.akamaihd.net^$all
 ||fbcdn.net^$all
-||meta.com^$important
+||meta.com^$all
 ||graph.instagram.com^$all
 ||graph-fallback.instagram.com^$all
 ||graph.facebook.com^$all
